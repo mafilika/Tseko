@@ -1,0 +1,123 @@
+body {
+margin:0;
+font-family: Arial;
+}
+
+/* TOP BAR */
+.top-bar {
+background: gold;
+text-align:center;
+padding:8px;
+font-weight:bold;
+}
+
+/* NAV */
+header {
+background:#0b1f3a;
+color:white;
+padding:15px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.nav {
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.nav a {
+color:white;
+margin:0 10px;
+text-decoration:none;
+}
+
+/* HERO */
+.hero {
+height:90vh;
+background:url('https://images.unsplash.com/photo-1581578731548-c64695cc6952') center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero-content {
+background:rgba(0,0,0,0.6);
+padding:40px;
+}
+
+/* BUTTONS */
+.btn {
+padding:12px 20px;
+border-radius:5px;
+text-decoration:none;
+margin:10px;
+display:inline-block;
+}
+
+.gold {background:gold;color:black;}
+.outline {border:2px solid white;color:white;}
+
+.small {padding:8px 12px;}
+
+/* GRID */
+.grid {
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card {
+background:#f4f4f4;
+padding:20px;
+border-radius:10px;
+}
+
+/* PROJECTS */
+.projects {
+padding:50px;
+text-align:center;
+}
+
+.gallery img {
+width:30%;
+border-radius:10px;
+margin:10px;
+}
+
+/* CTA */
+.cta {
+background:#0b1f3a;
+color:white;
+text-align:center;
+padding:50px;
+}
+
+/* FAQ */
+.faq button {
+width:100%;
+padding:15px;
+background:#eee;
+border:none;
+text-align:left;
+cursor:pointer;
+}
+
+.faq p {
+display:none;
+padding:10px;
+}
+
+/* FLOAT */
+.whatsapp-float {
+position:fixed;
+bottom:20px;
+right:20px;
+background:green;
+color:white;
+padding:15px;
+border-radius:50%;
+  }
